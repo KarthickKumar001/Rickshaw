@@ -211,3 +211,8 @@ USE_MOCK_SERVICES=true
 =======
 - Replace `captainId` in request bodies with actual captain ID 
 >>>>>>> bbd87feb1f24cfd3fd13c7de5b011d2647f1ea0f
+
+Admin DashBoard
+
+![image](https://github.com/user-attachments/assets/dbcfc769-2b4d-42c5-9d21-9aea3c3f3d4d)
+
