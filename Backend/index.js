@@ -5,6 +5,8 @@ const http = require('http');
 const socketService = require('./socket.service');
 const rideRoutes = require('./routes/ride.routes');
 const authRoutes = require('./routes/auth.routes');
+const paymentRoutes = require('./routes/payment.routes');
+const adminRoutes = require('./admin/routes/admin.routes');
 const { connectDB } = require('./db/connection');
 
 const app = express();
@@ -20,6 +22,8 @@ socketService.initialize(server);
 // Routes
 app.use('/api/rides', rideRoutes);
 app.use('/api/auth', authRoutes);
+app.use('/api/payments', paymentRoutes);
+app.use('/api/admin', adminRoutes);
 
 // Error handling middleware
 app.use((err, req, res, next) => {
