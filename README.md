@@ -206,4 +206,8 @@ USE_MOCK_SERVICES=true
 - All IDs are MongoDB ObjectIds
 - Content-Type header must be set to `application/json` for POST requests
 - Replace `{rideId}` in URLs with actual ride ID
+<<<<<<< HEAD
 - Replace `captainId` in request bodies with actual captain ID 
+=======
+- Replace `captainId` in request bodies with actual captain ID 
+>>>>>>> bbd87feb1f24cfd3fd13c7de5b011d2647f1ea0f
